@@ -1,0 +1,1231 @@
+0:100  0:100  MemLog inited, TSC freq: 2294785354
+0:100  0:000  LegacyRegion2: Chipset/proc: 0x01048086
+0:100  0:000   Next Generation Core processors (PAM 0x80-0x86)
+0:100  0:000   Test PAM1=(0x41=90, 0x5a=00, 0x81=11, 0x91=00) at chipset 01048086
+0:100  0:000  , Install = Success
+0:120  0:020  VGA Pci.Hdr.Command=6 - not enabled
+0:120  0:000  BiosVideoDriverBindingStart!
+0:120  0:000  BiosVideoCheckForVbe
+0:120  0:000  EdidOverride not found
+0:132  0:012   Edid1+
+0:132  0:000   found Detail Timing 1366x768
+0:132  0:000  timing string after 0xFE:AUO
+         
+0:132  0:000  timing string after 0xFE:B156XW02 V6 
+
+0:145  0:012   Edid0+
+0:145  0:000   found Detail Timing 1366x768
+0:145  0:000  ... already present
+0:145  0:000  timing string after 0xFE:AUO
+         
+0:145  0:000  timing string after 0xFE:B156XW02 V6 
+
+0:146  0:001     0 1024x768 attr=9B - ok, edid-, 1024x768, working, highest, pref=0
+0:146  0:000     1 640x480 attr=9B - ok, edid-, 640x480, working
+0:146  0:000     2 800x600 attr=9B - ok, edid-, 800x600, working
+0:146  0:000     3 1366x768 attr=9B - ok, edid+, working, highest, pref=3
+0:146  0:000  BV new mode: 3 1366x768
+0:284  0:137   SetMode pref 3 (3) = Success
+0:286  0:002  VGA Pci.Hdr.Command=6 - not enabled
+0:476  0:190  VGA Pci.Hdr.Command=6 - not enabled
+0:482  0:005  VGA Pci.Hdr.Command=6 - not enabled
+2:171  1:689  VGA Pci.Hdr.Command=6 - not enabled
+2:421  0:250  
+2:421  0:000  Now is 7.10.2017,  16:8:49 (GMT)
+2:421  0:000  Starting Clover revision: 3726 on CLOVER EFI
+2:421  0:000  Build with: [Args: ./ebuild.sh -fr -D NO_GRUB_DRIVERS_EMBEDDED | Command: build -D NO_GRUB_DRIVERS_EMBEDDED -D USE_LOW_EBDA -p Clover/Clover.dsc -a X64 -b RELEASE -t XCODE5 -n 5 | OS: 10.12 | XCODE: 7.3.1]
+2:421  0:000  SelfDevicePath=PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(1,GPT,E7ADF2E5-7FBD-4525-8B95-2A4F81F3FA85,0x800,0x95800) @96069698
+2:421  0:000  SelfDirPath = \EFI\CLOVER
+2:421  0:000  === [ Get Smbios ] ========================================
+2:421  0:000  Total Memory Slots Count = 2
+2:421  0:000  Type 17 Index = 0
+2:421  0:000  Table has error information, checking
+2:421  0:000  Found memory information in table 18/0, type=0x3, operation=0x2 syndrome=0x0
+2:421  0:000  ...memory OK
+2:421  0:000  SmbiosTable.Type17->Speed = 1333MHz
+2:421  0:000  SmbiosTable.Type17->Size = 8192MB
+2:421  0:000  SmbiosTable.Type17->Bank/Device = BANK 0 ChannelA-DIMM0
+2:421  0:000  SmbiosTable.Type17->Vendor = Kinston
+2:421  0:000  SmbiosTable.Type17->SerialNumber = 2320A9C4
+2:421  0:000  SmbiosTable.Type17->PartNumber = 99U5428-063.A00LF 
+2:421  0:000  Type 17 Index = 1
+2:421  0:000  Ignoring insane frequency value 0MHz
+2:421  0:000  SmbiosTable.Type17->Speed = 0MHz
+2:421  0:000  SmbiosTable.Type17->Size = 0MB
+2:421  0:000  SmbiosTable.Type17->Bank/Device = BANK 1 ChannelA-DIMM1
+2:421  0:000  SmbiosTable.Type17->Vendor = <null string>
+2:421  0:000  SmbiosTable.Type17->SerialNumber = <null string>
+2:421  0:000  SmbiosTable.Type17->PartNumber = <null string>
+2:421  0:000  Boot status=0
+2:421  0:000  Running on: 'Aspire 5755G' with board 'JV51_HR'
+2:421  0:000  === [ GetCPUProperties ] ==================================
+2:421  0:000  CPU Vendor = 756E6547 Model=206A7
+2:421  0:000  got cores from CPUID_1 = 0
+2:421  0:000  The CPU supported turbo
+2:421  0:000  BrandString = Intel(R) Core(TM) i5-2410M CPU @ 2.30GHz
+2:421  0:000  MSR 0xE2 before patch 1E008404
+2:421  0:000  MSR 0xE2 is locked, PM patches will be turned on
+2:421  0:000  MSR 0xE4              00020414
+2:421  0:000  MSR 0xCE              00000800_60011700
+2:421  0:000  non-usable FLEX_RATIO = 1FF00
+2:421  0:000  MSR 0x1B0             00000000
+2:421  0:000  FSBFrequency=100MHz DMIvalue=1333330kHz
+2:421  0:000  Corrected FSBFrequency=100MHz
+2:421  0:000  Vendor/Model/Stepping: 0x756E6547/0x2A/0x7
+2:421  0:000  Family/ExtFamily: 0x6/0x0
+2:421  0:000  MaxDiv/MinDiv: 23.0/8
+2:421  0:000  Turbo: 27/27/27/29
+2:421  0:000  Features: 0xBFEBFBFF
+2:421  0:000  Threads: 4
+2:421  0:000  Cores: 2
+2:421  0:000  FSB: 100 MHz
+2:421  0:000  CPU: 2300 MHz
+2:421  0:000  TSC: 2300 MHz
+2:421  0:000  PIS: 400 MHz
+2:421  0:000  === [ GetDevices ] ========================================
+2:421  0:000  PCI (00|00:00.00) : 8086 0104 class=060000
+2:421  0:000  PCI (00|00:01.00) : 8086 0101 class=060400
+2:421  0:000  PCI (00|01:00.00) : 10DE 0DF4 class=030000
+2:421  0:000   - GFX: Model=Acer GeForce GT 540M family C1 (Nvidia)
+2:421  0:000  PCI (00|00:02.00) : 8086 0116 class=030000
+2:421  0:000   - GFX: Model=Intel HD Graphics 3000 (Intel)
+2:421  0:000  PCI (00|00:16.00) : 8086 1C3A class=078000
+2:421  0:000  PCI (00|00:1A.00) : 8086 1C2D class=0C0320
+2:421  0:000  PCI (00|00:1B.00) : 8086 1C20 class=040300
+2:421  0:000  PCI (00|00:1C.00) : 8086 1C10 class=060400
+2:422  0:000  PCI (00|02:00.00) : 14E4 16B5 class=020000
+2:422  0:000   - LAN: 0 Vendor=Broadcom
+2:422  0:000  PCI (00|02:00.01) : 14E4 16BC class=080501
+2:422  0:000  PCI (00|02:00.02) : 14E4 16BE class=088000
+2:422  0:000  PCI (00|02:00.03) : 14E4 16BF class=088000
+2:422  0:000  PCI (00|00:1C.01) : 8086 1C12 class=060400
+2:422  0:000  PCI (00|03:00.00) : 168C 002E class=028000
+2:422  0:000   - WIFI: Vendor=Atheros
+2:422  0:000  PCI (00|00:1C.03) : 8086 1C16 class=060400
+2:422  0:000  PCI (00|05:00.00) : 1033 0194 class=0C0330
+2:422  0:000  PCI (00|00:1D.00) : 8086 1C26 class=0C0320
+2:422  0:000  PCI (00|00:1F.00) : 8086 1C49 class=060100
+2:422  0:000  PCI (00|00:1F.02) : 8086 1C03 class=010601
+2:422  0:000  PCI (00|00:1F.03) : 8086 1C22 class=0C0500
+2:422  0:000  === [ GetDefaultSettings ] ================================
+2:422  0:000  Clover load options size = 0 bytes
+2:424  0:002  , Status=Success
+2:424  0:000  EFI\CLOVER\config.plist loaded: Success
+2:424  0:000  === [ GetListOfThemes ] ===================================
+2:425  0:000  - [00]: applestyle
+2:426  0:000  - [01]: BGM
+2:426  0:000  - [02]: BGM256
+2:428  0:001  - [03]: black_green
+2:428  0:000  - [04]: bluemac
+2:430  0:001  - [05]: bootcamp
+2:431  0:001  - [06]: chrome
+2:432  0:000  - [07]: CloverX
+2:433  0:001  - [08]: dawn
+2:435  0:001  - [09]: embedded
+2:435  0:000  - [09]: gold_clover
+2:436  0:000  - [10]: iclover
+2:437  0:000  - [11]: ios7
+2:437  0:000  - [12]: magnifico
+2:439  0:001  - [13]: metal
+2:439  0:000  - [14]: orange
+2:440  0:000  - [15]: os_box
+2:441  0:001  - [16]: os_one
+2:444  0:002  - [17]: random
+2:444  0:000  - [17]: Shield
+2:446  0:001  - [18]: sketched
+2:446  0:000  - [19]: Space
+2:447  0:000  - [20]: steampunkblack
+2:448  0:000  - [21]: thinkpad
+2:448  0:000  === [ GetEarlyUserSettings ] ==============================
+2:448  0:000  timeout set to 5
+2:448  0:000  Custom boot CUSTOM_BOOT_DISABLED (0x0)
+2:448  0:000  KextsToPatch: 1 requested
+2:448  0:000   - [00]: AppleAHCIPort (External icons patch) :: BinPatch :: data len: 8
+2:448  0:000  Default theme: embedded
+2:448  0:000  Hiding entries with string BOOTX64.EFI
+2:448  0:000  === [ LoadDrivers ] =======================================
+2:450  0:001  Loading FSInject-64.efi  status=Success
+2:450  0:000  Loading GrubEXFAT-64.efi  status=Success
+2:451  0:000   - driver needs connecting
+2:451  0:000  Loading GrubISO9660-64.efi  status=Success
+2:452  0:000   - driver needs connecting
+2:452  0:000  Loading GrubNTFS-64.efi  status=Success
+2:452  0:000   - driver needs connecting
+2:452  0:000  Loading GrubUDF-64.efi  status=Success
+2:452  0:000   - driver needs connecting
+2:452  0:000  Loading NvmExpressDxe-64.efi  status=Success
+2:453  0:000   - driver needs connecting
+2:453  0:000  Loading Ps2MouseDxe-64.efi  status=Success
+2:453  0:000   - driver needs connecting
+2:453  0:000  Loading UsbMouseDxe-64.efi  status=Success
+2:453  0:000   - driver needs connecting
+2:453  0:000  Loading VBoxExt2-64.efi  status=Success
+2:453  0:000   - driver needs connecting
+2:453  0:000  Loading VBoxExt4-64.efi  status=Success
+2:453  0:000   - driver needs connecting
+2:453  0:000  Loading VBoxIso9600-64.efi  status=Success
+2:454  0:000   - driver needs connecting
+2:454  0:000  Loading XhciDxe-64.efi  status=Success
+2:454  0:000   - driver needs connecting
+2:454  0:000  Loading NTFS.efi  status=Success
+2:457  0:002   - driver needs connecting
+2:457  0:000  12 drivers needs connecting ...
+2:457  0:000  PlatformDriverOverrideProtocol->GetDriver overriden
+2:464  0:007  VGA Pci.Hdr.Command=6 - not enabled
+2:466  0:001  PciIo started
+2:466  0:000  HcDevicePath found
+2:466  0:000  attribute saved=600
+2:466  0:000  attribute supports=8700 Status=Success
+2:466  0:000  device enable status=Success
+2:466  0:000  Create USB2HC
+2:466  0:000  Xhc HCI version=96
+2:466  0:000  PageSize = 1
+2:466  0:000  XhcCreateUsb3Hc: Capability length 0x20
+2:466  0:000  XhcCreateUsb3Hc: ExtCapRegBase 0x500
+2:466  0:000  XhcCreateUsb3Hc: HcSParams1 0x4000820
+2:466  0:000  XhcCreateUsb3Hc: HcSParams2 0x11
+2:466  0:000  XhcCreateUsb3Hc: HcCParams 0x14042CB
+2:466  0:000  XhcCreateUsb3Hc: DBOff 0x800
+2:466  0:000  XhcCreateUsb3Hc: RTSOff 0x600
+2:466  0:000  XhcCreateUsb3Hc: UsbLegSupOffset 0x0
+2:466  0:000  XhcCreateUsb3Hc: DebugCapSupOffset 0xFFFFFFFF
+2:466  0:000  XhcSetBiosOwnership
+2:467  0:001  XhcIntelQuirks
+2:467  0:000  XhcResetHC
+2:467  0:000  Initialize the schedule
+2:467  0:000  Start the Host Controller
+2:471  0:003  XhcDriverBindingStart: XHCI started for controller @ 963CBD18
+2:478  0:007  XhcReset: status Success
+2:478  0:000  XhcGetState: current state 0
+2:481  0:003  XhcSetState: status Success
+2:481  0:000  XhcGetCapability: 4 ports, 64 bit capable=1
+2:589  0:107  === [ InitScreen ] ========================================
+2:589  0:000  SetScreenResolution: 1366x768 - already set
+2:589  0:000  Console modes reported: 4, available modes:
+2:589  0:000   - [01]: 80x25
+2:589  0:000   - [03]: 100x31
+2:589  0:000   - [04]: 170x40 (current mode)
+2:589  0:000  SetScreenResolution: 1366x768 - already set
+2:589  0:000  reinit: self device path=PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(1,GPT,E7ADF2E5-7FBD-4525-8B95-2A4F81F3FA85,0x800,0x95800)
+2:597  0:007  === [ GetMacAddress ] =====================================
+2:597  0:000  === [ ScanSPD ] ===========================================
+2:598  0:000  SMBus device : 8086 1C22 class=0C0500 status=Success
+2:598  0:000  SMBus CmdReg: 0x3
+2:598  0:000  Scanning SMBus [8086:1C22], mmio: 0xD1B06004, ioport: 0x3040, hostc: 0x1
+2:598  0:000  Slots to scan [8]...
+2:598  0:000  SPD[0]: Type 11 @0x50
+2:628  0:030  DDR speed 1600MHz
+2:628  0:000  Slot: 0 Type 24 8192MB 1600MHz Vendor=Kingston PartNo=99U5428-063.A00LF SerialNo=020302000A090C04
+2:629  0:000  SPD[2]: Type 11 @0x52
+2:666  0:036  DDR speed 1333MHz
+2:666  0:000  Slot: 2 Type 24 4096MB 1333MHz Vendor=Kingston PartNo=99U5469-046.A00LF SerialNo=000E010B0D040707
+2:666  0:000  === [ GetAcpiTablesList ] =================================
+2:666  0:000  Get Acpi Tables List from RSDT:
+2:666  0:000   - [00]: FACP  ACRPRDCT len=244
+2:666  0:000   - [01]: ASF!  ACRPRDCT len=165
+2:666  0:000   - [02]: HPET  ACRPRDCT len=56
+2:666  0:000   - [03]: APIC  ACRPRDCT len=140
+2:666  0:000   - [04]: MCFG  ACRPRDCT len=60
+2:666  0:000   - [05]: SLIC  ACRPRDCT len=374
+2:666  0:000   - [06]: SSDT  ACRPRDCT len=3010
+2:666  0:000   - [07]: BOOT  ACRPRDCT len=40
+2:666  0:000   - [08]: ASPT  ACRPRDCT len=52
+2:666  0:000   - [09]: SSDT  ACRPRDCT len=1920
+2:666  0:000   - [10]: SSDT  ACRPRDCT len=2454
+2:666  0:000   - [11]: SSDT  ACRPRDCT len=20312
+2:666  0:000  Calibrated TSC frequency =2294785354 =2294MHz
+2:667  0:000  === [ GetUserSettings ] ===================================
+2:667  0:000  Add 3 properties:
+2:667  0:000   - [00]: IntelGFX, len: 20
+2:667  0:000   - [-1775439824]: IntelGFX, len: 10
+2:667  0:000   - [-1775439824]: IntelGFX, len: 4
+2:667  0:000  USB FixOwnership: yes
+2:667  0:000   - final DSDT Fix mask=0000E9D7
+2:667  0:000  PatchesDSDT: 2 requested
+2:667  0:000   - [00]: (change EHC1 to EH01) lenToFind: 4, lenToReplace: 4
+2:667  0:000   - [01]: (change EHC2 to EH02) lenToFind: 4, lenToReplace: 4
+2:667  0:000  EnableC6: yes
+2:667  0:000  EnableC4: yes
+2:667  0:000  EnableC2: yes
+2:667  0:000  ChassisType: 0x8
+2:667  0:000  Using smbios.plist at path: EFI\CLOVER\smbios.plist, Status=Not Found
+2:669  0:001  === [ ScanVolumes ] =======================================
+2:669  0:000  Found 14 volumes with blockIO
+2:669  0:000  - [00]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)
+2:669  0:000          Result of bootcode detection: bootable unknown (legacy)
+2:669  0:000  - [01]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x0,0x0)
+2:678  0:008  - [02]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(1,GPT,E7ADF2E5-7FBD-4525-8B95-2A4F81F3FA85,0x800,0x95800)
+2:678  0:000          Result of bootcode detection: bootable Clover (clover)
+2:679  0:000          This is SelfVolume !!
+2:679  0:000  - [03]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(2,GPT,BA2E8007-9218-4A6B-AD6B-13C5CBDB5816,0x96000,0x40000)
+2:679  0:000  - [04]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(3,GPT,39978A98-BEF8-42E9-A955-8CD7F4B18108,0xD6000,0xC6910E0)
+2:679  0:000  - [05]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(4,GPT,EF8D6AD8-5D4A-4939-8F59-DC6DC757FE51,0xC7A70E0,0x135F20)
+2:679  0:000  - [06]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(5,GPT,243C7E15-36CA-4238-8768-24AE70AB6E85,0xC8DD000,0xF000000)
+2:680  0:000          Result of bootcode detection: bootable Windows (vista,win)
+2:685  0:005  - [07]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(6,GPT,E1D13468-1BEE-4039-B8E3-74F32B4E79DC,0x1B8DD000,0xF000800)
+2:686  0:000          Result of bootcode detection: bootable Windows (vista,win)
+2:687  0:001  - [08]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(7,GPT,690DFD0E-9550-4AF6-958C-48FEE02DA492,0x2A8DD800,0x8C00000)
+2:687  0:000          Result of bootcode detection: bootable Windows (vista,win)
+2:689  0:001  - [09]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(8,GPT,EEA95D53-6B3E-44C9-B78A-590BB8ABF1BB,0x334DD800,0x482FF68)
+2:690  0:000  - [10]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(9,GPT,854A2882-0C45-4F0F-8199-6FCA16BE85EB,0x37D0D768,0x135F20)
+2:690  0:000  - [11]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x0,0x0)\HD(1,GPT,847CED00-3DEF-4679-ABBF-C07FC3C96D5A,0x28,0x64000)
+2:690  0:000          Result of bootcode detection: bootable unknown (legacy)
+2:695  0:004  - [12]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x0,0x0)\HD(2,GPT,F0D12EBE-1A37-4527-9EB1-EF4AD8153916,0x64028,0x1CFEBA00)
+2:695  0:000  - [13]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x0,0x0)\HD(3,GPT,21BBE6E4-FDA7-419B-820F-C8897EB4400C,0x1D08FA28,0x135F20)
+2:720  0:025  Loading nvram.plist from Vol 'OS X El Capitan' - loaded, size=1865
+2:724  0:003  === [ PutNvramPlistToRtVars ] =============================
+2:724  0:000   Adding Key: Clover.Theme: Size = 3, Data: 42 47 4D 
+2:724  0:000   Adding Key: LocationServicesEnabled: Size = 1, Data: 01 
+2:724  0:000   Adding Key: SystemAudioVolume: Size = 1, Data: 57 
+2:724  0:000   Adding Key: backlight-level: Size = 2, Data: 10 07 
+2:724  0:000   Adding Key: bootercfg: Size = 2, Data: 28 00 
+2:724  0:000   Adding Key: csr-active-config: Size = 4, Data: 67 00 00 00 
+2:724  0:000   Adding Key: fmm-computer-name: Size = 9, Data: 4D 61 63 49 6E 74 6F 73 68 
+2:724  0:000   Adding Key: fmm-mobileme-token-FMM: Size = 589, Data: 62 70 6C 69 73 74 30 30 D9 01 02 03 04 05 06 07 08 09 0A 0B 16 17 18 19 1A 1B 1C 56 75 73 65 72 69 64 5F 10 13 64 61 74 61 63 6C 61 73 73 50 72 6F 70 65 72 74 69 65 73 59 61 75 74 68 54 6F 6B 65 6E 58 70 65 72 73 6F 6E 49 44 58 75 73 65 72 6E 61 6D 65 57 61 64 64 54 69 6D 65 5F 10 12 65 6E 61 62 6C 65 64 44 61 74 61 63 6C 61 73 73 65 73 54 67 75 69 64 58 75 73 65 72 49 6E 66 6F 11 01 F5 D1 0C 0D 5F 10 21 63 6F 6D 2E 61 70 70 6C 65 2E 44 61 74 61 63 6C 61 73 73 2E 44 65 76 69 63 65 4C 6F 63 61 74 6F 72 D4 0E 0F 10 11 12 13 14 15 56 61 70 73 45 6E 76 58 68 6F 73 74 6E 61 6D 65 5D 61 75 74 68 4D 65 63 68 61 6E 69 73 6D 56 73 63 68 65 6D 65 5A 50 72 6F 64 75 63 74 69 6F 6E 5F 10 13 70 32 39 2D 66 6D 69 70 2E 69 63 6C 6F 75 64 2E 63 6F 6D 55 74 6F 6B 65 6E 55 68 74 74 70 73 5F 10 28 41 51 41 41 41 41 42 59 36 4B 43 33 54 54 47 33 4F 74 6D 51 33 6B 7A 65 76 67 54 73 38 58 75 6B 51 58 71 6C 73 70 63 7E 5B 31 30 39 38 33 32 37 31 38 30 37 5F 10 1A 6E 69 6A 61 74 5F 61 62 64 75 71 69 79 75 6D 40 69 63 6C 6F 75 64 2E 63 6F 6D 23 41 D6 3A 28 4E A0 5F D9 A1 0C 5F 10 24 36 43 34 36 42 32 30 46 2D 41 41 43 44 2D 34 31 31 30 2D 42 44 44 41 2D 43 37 35 38 34 35 41 45 30 37 37 38 D3 1D 1E 1F 20 21 22 5F 10 15 49 6E 55 73 65 4F 77 6E 65 72 44 69 73 70 6C 61 79 4E 61 6D 65 5F 10 13 49 6E 55 73 65 4F 77 6E 65 72 46 69 72 73 74 4E 61 6D 65 5F 10 12 49 6E 55 73 65 4F 77 6E 65 72 4C 61 73 74 4E 61 6D 65 64 5C 3C 52 A0 63 D0 96 3F 61 96 3F 63 5C 3C 52 A0 63 D0 00 08 00 1B 00 22 00 38 00 42 00 4B 00 54 00 5C 00 71 00 76 00 7F 00 82 00 85 00 A9 00 B2 00 B9 00 C2 00 D0 00 D7 00 E2 00 F8 00 FE 01 04 01 2F 01 3B 01 58 01 61 01 63 01 8A 01 91 01 A9 01 BF 01 D4 01 DD 01 E0 00 00 00 00 00 00 02 01 00 00 00 00 00 00 00 23 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 E7 
+2:724  0:000   Adding Key: install-product-url: Size = 73, Data: 78 2D 6F 73 70 72 6F 64 75 63 74 3A 2F 2F 37 30 41 39 31 34 34 30 2D 39 35 42 33 2D 33 42 43 37 2D 39 37 37 44 2D 34 42 30 44 36 30 32 30 33 32 37 42 2F 6D 61 63 4F 53 25 32 30 49 6E 73 74 61 6C 6C 25 32 30 44 61 74 61 
+2:724  0:000   Adding Key: prev-lang:kbd: Size = 6, Data: 65 6E 3A 32 32 33 
+2:724  0:000   Adding Key: rc_imgsrc_info: Size = 101, Data: 62 70 6C 69 73 74 30 30 A1 01 D1 02 03 5F 10 24 37 30 41 39 31 34 34 30 2D 39 35 42 33 2D 33 42 43 37 2D 39 37 37 44 2D 34 42 30 44 36 30 32 30 33 32 37 42 5C 6D 61 63 4F 53 20 53 69 65 72 72 61 08 0A 0D 34 00 00 00 00 00 00 01 01 00 00 00 00 00 00 00 04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 41 
+2:724  0:000   Adding Key: security-mode: String: Size = 4, Val = 'none'
+2:724  0:000  === [ InitTheme ] =========================================
+2:724  0:000   using embedded theme
+2:725  0:001  Choosing theme <null string>
+2:725  0:000  after NVRAM boot-args=slide=0 dart=0 npci=0x2000 nv_disable=1 kext-dev-mode=1 rootless=0
+2:725  0:000  === [ ScanLoader ] ========================================
+2:725  0:000  - [02]: 'EFI'
+2:727  0:001          AddLoaderEntry for Volume Name=EFI
+2:736  0:009  - [04]: 'OS X El Capitan'
+2:746  0:010          AddLoaderEntry for Volume Name=OS X El Capitan
+2:758  0:011          Check if volume Is Hibernated:
+2:758  0:000      Check sleep image 'by signature':
+2:767  0:008      read prefs \Library\Preferences\SystemConfiguration\com.apple.PowerManagement.plist status=Success
+2:767  0:000      SleepImage name from pref: ImageVolume = 'OS X El Capitan', ImageName = '\private\var\vm\sleepimage'
+2:770  0:003      Reading first 512 bytes of sleepimage ...
+2:772  0:002   OurBlockIoRead: Lba=A0D6008, Offset=141AC01000 (BlockSize=512)
+2:772  0:000   sig lion: 7A7A7A7A
+2:772  0:000   sig snow: 0
+2:772  0:000   no valid sleep image offset was found
+2:772  0:000      Reading completed -> Success
+2:772  0:000       sleepimage offset could not be acquired
+2:772  0:000          hibernated: no - sign
+2:773  0:001          AddLoaderEntry for Volume Name=OS X El Capitan
+2:776  0:002  - [05]: 'Recovery HD'
+2:776  0:000          AddLoaderEntry for Volume Name=Recovery HD
+2:778  0:001  - [06]: 'Win7'
+2:866  0:088          AddLoaderEntry for Volume Name=Win7
+2:967  0:100  - [07]: 'Win10'
+3:007  0:040          AddLoaderEntry for Volume Name=Win10
+3:057  0:049  - [08]: 'DEVELOP'
+3:176  0:119  - [09]: 'macOS Sierra'
+3:179  0:002          AddLoaderEntry for Volume Name=macOS Sierra
+3:183  0:003          Check if volume Is Hibernated:
+3:183  0:000      Check sleep image 'by signature':
+3:187  0:003      read prefs \Library\Preferences\SystemConfiguration\com.apple.PowerManagement.plist status=Not Found
+3:187  0:000      using default sleep image name = \private\var\vm\sleepimage
+3:197  0:009      Reading first 512 bytes of sleepimage ...
+3:197  0:000   OurBlockIoRead: Lba=352E5848, Offset=6A5CB09000 (BlockSize=512)
+3:197  0:000   sig lion: 7A7A7A7A
+3:197  0:000   sig snow: 0
+3:197  0:000   no valid sleep image offset was found
+3:197  0:000      Reading completed -> Success
+3:197  0:000       sleepimage offset could not be acquired
+3:197  0:000          hibernated: no - sign
+3:199  0:001  - [10]: 'Recovery HD'
+3:199  0:000          AddLoaderEntry for Volume Name=Recovery HD
+3:200  0:001  - [11]: 'EFI'
+3:203  0:002  - [12]: 'MacIntosh'
+3:209  0:005          AddLoaderEntry for Volume Name=MacIntosh
+3:219  0:010          Check if volume Is Hibernated:
+3:219  0:000      Check sleep image 'by signature':
+3:227  0:007      read prefs \Library\Preferences\SystemConfiguration\com.apple.PowerManagement.plist status=Success
+3:227  0:000      SleepImage name from pref: ImageVolume = 'MacIntosh', ImageName = '\private\var\vm\sleepimage'
+3:235  0:007      sleepimage not found -> Not Found
+3:235  0:000          hibernated: no - sign
+3:236  0:001          AddLoaderEntry for Volume Name=MacIntosh
+3:239  0:002  - [13]: 'Recovery HD'
+3:239  0:000          AddLoaderEntry for Volume Name=Recovery HD
+3:240  0:001  === [ AddCustomLegacy ] ===================================
+3:240  0:000  === [ AddCustomTool ] =====================================
+3:242  0:001  found tool \EFI\CLOVER\tools\Shell64U.efi
+3:242  0:000  Checking EFI partition Volume 2 for Clover
+3:242  0:000   Found Clover
+3:243  0:000  === [ FindDefaultEntry ] ==================================
+3:243  0:000  === [ GetEfiBootDeviceFromNvram ] =========================
+3:243  0:000  Default boot entry not found
+3:243  0:000  DefaultIndex=-1 and MainMenu.EntryCount=17
+3:374  0:130  GUI ready
+9:577  6:202  ConnectAll after refresh menu
+9:589  0:012  VGA Pci.Hdr.Command=6 - not enabled
+9:658  0:069  ReinitSelfLib after theme change
+9:659  0:000  reinit: self device path=PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(1,GPT,E7ADF2E5-7FBD-4525-8B95-2A4F81F3FA85,0x800,0x95800)
+9:659  0:000  === [ ScanVolumes ] =======================================
+9:659  0:000  Found 14 volumes with blockIO
+9:659  0:000  - [00]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)
+9:659  0:000          Result of bootcode detection: bootable unknown (legacy)
+9:659  0:000  - [01]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x0,0x0)
+9:662  0:002  - [02]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(1,GPT,E7ADF2E5-7FBD-4525-8B95-2A4F81F3FA85,0x800,0x95800)
+9:662  0:000          Result of bootcode detection: bootable Clover (clover)
+9:662  0:000          This is SelfVolume !!
+9:662  0:000  - [03]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(2,GPT,BA2E8007-9218-4A6B-AD6B-13C5CBDB5816,0x96000,0x40000)
+9:662  0:000  - [04]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(3,GPT,39978A98-BEF8-42E9-A955-8CD7F4B18108,0xD6000,0xC6910E0)
+9:662  0:000  - [05]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(4,GPT,EF8D6AD8-5D4A-4939-8F59-DC6DC757FE51,0xC7A70E0,0x135F20)
+9:663  0:000  - [06]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(5,GPT,243C7E15-36CA-4238-8768-24AE70AB6E85,0xC8DD000,0xF000000)
+9:663  0:000          Result of bootcode detection: bootable Windows (vista,win)
+9:665  0:001  - [07]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(6,GPT,E1D13468-1BEE-4039-B8E3-74F32B4E79DC,0x1B8DD000,0xF000800)
+9:665  0:000          Result of bootcode detection: bootable Windows (vista,win)
+9:667  0:001  - [08]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(7,GPT,690DFD0E-9550-4AF6-958C-48FEE02DA492,0x2A8DD800,0x8C00000)
+9:667  0:000          Result of bootcode detection: bootable Windows (vista,win)
+9:669  0:002  - [09]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(8,GPT,EEA95D53-6B3E-44C9-B78A-590BB8ABF1BB,0x334DD800,0x482FF68)
+9:669  0:000  - [10]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(9,GPT,854A2882-0C45-4F0F-8199-6FCA16BE85EB,0x37D0D768,0x135F20)
+9:669  0:000  - [11]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x0,0x0)\HD(1,GPT,847CED00-3DEF-4679-ABBF-C07FC3C96D5A,0x28,0x64000)
+9:670  0:000          Result of bootcode detection: bootable unknown (legacy)
+9:670  0:000  - [12]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x0,0x0)\HD(2,GPT,F0D12EBE-1A37-4527-9EB1-EF4AD8153916,0x64028,0x1CFEBA00)
+9:670  0:000  - [13]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x0,0x0)\HD(3,GPT,21BBE6E4-FDA7-419B-820F-C8897EB4400C,0x1D08FA28,0x135F20)
+9:670  0:000  === [ PutNvramPlistToRtVars ] =============================
+9:670  0:000   Adding Key: Clover.Theme: Size = 3, Data: 42 47 4D 
+9:670  0:000   Adding Key: LocationServicesEnabled: Size = 1, Data: 01 
+9:670  0:000   Adding Key: SystemAudioVolume: Size = 1, Data: 57 
+9:670  0:000   Adding Key: backlight-level: Size = 2, Data: 10 07 
+9:670  0:000   Adding Key: bootercfg: Size = 2, Data: 28 00 
+9:670  0:000   Adding Key: csr-active-config: Size = 4, Data: 67 00 00 00 
+9:670  0:000   Adding Key: fmm-computer-name: Size = 9, Data: 4D 61 63 49 6E 74 6F 73 68 
+9:670  0:000   Adding Key: fmm-mobileme-token-FMM: Size = 589, Data: 62 70 6C 69 73 74 30 30 D9 01 02 03 04 05 06 07 08 09 0A 0B 16 17 18 19 1A 1B 1C 56 75 73 65 72 69 64 5F 10 13 64 61 74 61 63 6C 61 73 73 50 72 6F 70 65 72 74 69 65 73 59 61 75 74 68 54 6F 6B 65 6E 58 70 65 72 73 6F 6E 49 44 58 75 73 65 72 6E 61 6D 65 57 61 64 64 54 69 6D 65 5F 10 12 65 6E 61 62 6C 65 64 44 61 74 61 63 6C 61 73 73 65 73 54 67 75 69 64 58 75 73 65 72 49 6E 66 6F 11 01 F5 D1 0C 0D 5F 10 21 63 6F 6D 2E 61 70 70 6C 65 2E 44 61 74 61 63 6C 61 73 73 2E 44 65 76 69 63 65 4C 6F 63 61 74 6F 72 D4 0E 0F 10 11 12 13 14 15 56 61 70 73 45 6E 76 58 68 6F 73 74 6E 61 6D 65 5D 61 75 74 68 4D 65 63 68 61 6E 69 73 6D 56 73 63 68 65 6D 65 5A 50 72 6F 64 75 63 74 69 6F 6E 5F 10 13 70 32 39 2D 66 6D 69 70 2E 69 63 6C 6F 75 64 2E 63 6F 6D 55 74 6F 6B 65 6E 55 68 74 74 70 73 5F 10 28 41 51 41 41 41 41 42 59 36 4B 43 33 54 54 47 33 4F 74 6D 51 33 6B 7A 65 76 67 54 73 38 58 75 6B 51 58 71 6C 73 70 63 7E 5B 31 30 39 38 33 32 37 31 38 30 37 5F 10 1A 6E 69 6A 61 74 5F 61 62 64 75 71 69 79 75 6D 40 69 63 6C 6F 75 64 2E 63 6F 6D 23 41 D6 3A 28 4E A0 5F D9 A1 0C 5F 10 24 36 43 34 36 42 32 30 46 2D 41 41 43 44 2D 34 31 31 30 2D 42 44 44 41 2D 43 37 35 38 34 35 41 45 30 37 37 38 D3 1D 1E 1F 20 21 22 5F 10 15 49 6E 55 73 65 4F 77 6E 65 72 44 69 73 70 6C 61 79 4E 61 6D 65 5F 10 13 49 6E 55 73 65 4F 77 6E 65 72 46 69 72 73 74 4E 61 6D 65 5F 10 12 49 6E 55 73 65 4F 77 6E 65 72 4C 61 73 74 4E 61 6D 65 64 5C 3C 52 A0 63 D0 96 3F 61 96 3F 63 5C 3C 52 A0 63 D0 00 08 00 1B 00 22 00 38 00 42 00 4B 00 54 00 5C 00 71 00 76 00 7F 00 82 00 85 00 A9 00 B2 00 B9 00 C2 00 D0 00 D7 00 E2 00 F8 00 FE 01 04 01 2F 01 3B 01 58 01 61 01 63 01 8A 01 91 01 A9 01 BF 01 D4 01 DD 01 E0 00 00 00 00 00 00 02 01 00 00 00 00 00 00 00 23 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 E7 
+9:670  0:000   Adding Key: install-product-url: Size = 73, Data: 78 2D 6F 73 70 72 6F 64 75 63 74 3A 2F 2F 37 30 41 39 31 34 34 30 2D 39 35 42 33 2D 33 42 43 37 2D 39 37 37 44 2D 34 42 30 44 36 30 32 30 33 32 37 42 2F 6D 61 63 4F 53 25 32 30 49 6E 73 74 61 6C 6C 25 32 30 44 61 74 61 
+9:670  0:000   Adding Key: prev-lang:kbd: Size = 6, Data: 65 6E 3A 32 32 33 
+9:670  0:000   Adding Key: rc_imgsrc_info: Size = 101, Data: 62 70 6C 69 73 74 30 30 A1 01 D1 02 03 5F 10 24 37 30 41 39 31 34 34 30 2D 39 35 42 33 2D 33 42 43 37 2D 39 37 37 44 2D 34 42 30 44 36 30 32 30 33 32 37 42 5C 6D 61 63 4F 53 20 53 69 65 72 72 61 08 0A 0D 34 00 00 00 00 00 00 01 01 00 00 00 00 00 00 00 04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 41 
+9:670  0:000   Adding Key: security-mode: String: Size = 4, Val = 'none'
+9:670  0:000  Choosing theme <null string>
+9:670  0:000  after NVRAM boot-args=slide=0 dart=0 npci=0x2000 nv_disable=1 kext-dev-mode=1 rootless=0
+9:675  0:004  === [ ScanLoader ] ========================================
+9:675  0:000  - [02]: 'EFI'
+9:675  0:000          AddLoaderEntry for Volume Name=EFI
+9:677  0:001  - [04]: 'OS X El Capitan'
+9:680  0:003          AddLoaderEntry for Volume Name=OS X El Capitan
+9:695  0:014          Check if volume Is Hibernated:
+9:695  0:000      Check sleep image 'by signature':
+9:698  0:003      read prefs \Library\Preferences\SystemConfiguration\com.apple.PowerManagement.plist status=Success
+9:698  0:000      SleepImage name from pref: ImageVolume = 'OS X El Capitan', ImageName = '\private\var\vm\sleepimage'
+9:706  0:007      Reading first 512 bytes of sleepimage ...
+9:706  0:000   OurBlockIoRead: Lba=A0D6008, Offset=141AC01000 (BlockSize=512)
+9:706  0:000   sig lion: 7A7A7A7A
+9:706  0:000   sig snow: 0
+9:706  0:000   no valid sleep image offset was found
+9:706  0:000      Reading completed -> Success
+9:706  0:000       sleepimage offset could not be acquired
+9:706  0:000          hibernated: no - sign
+9:707  0:000          AddLoaderEntry for Volume Name=OS X El Capitan
+9:710  0:002  - [05]: 'Recovery HD'
+9:710  0:000          AddLoaderEntry for Volume Name=Recovery HD
+9:714  0:004  - [06]: 'Win7'
+9:808  0:093          AddLoaderEntry for Volume Name=Win7
+9:966  0:157  - [07]: 'Win10'
+10:007  0:041          AddLoaderEntry for Volume Name=Win10
+10:057  0:050  - [08]: 'DEVELOP'
+10:178  0:120  - [09]: 'macOS Sierra'
+10:179  0:000          AddLoaderEntry for Volume Name=macOS Sierra
+10:180  0:001          Check if volume Is Hibernated:
+10:180  0:000      Check sleep image 'by signature':
+10:188  0:007      read prefs \Library\Preferences\SystemConfiguration\com.apple.PowerManagement.plist status=Not Found
+10:188  0:000      using default sleep image name = \private\var\vm\sleepimage
+10:196  0:007      Reading first 512 bytes of sleepimage ...
+10:196  0:000   OurBlockIoRead: Lba=352E5848, Offset=6A5CB09000 (BlockSize=512)
+10:196  0:000   sig lion: 7A7A7A7A
+10:196  0:000   sig snow: 0
+10:196  0:000   no valid sleep image offset was found
+10:196  0:000      Reading completed -> Success
+10:196  0:000       sleepimage offset could not be acquired
+10:196  0:000          hibernated: no - sign
+10:198  0:001  - [10]: 'Recovery HD'
+10:198  0:000          AddLoaderEntry for Volume Name=Recovery HD
+10:199  0:000  - [11]: 'EFI'
+10:199  0:000  - [12]: 'MacIntosh'
+10:207  0:007          AddLoaderEntry for Volume Name=MacIntosh
+10:218  0:010          Check if volume Is Hibernated:
+10:218  0:000      Check sleep image 'by signature':
+10:226  0:008      read prefs \Library\Preferences\SystemConfiguration\com.apple.PowerManagement.plist status=Success
+10:226  0:000      SleepImage name from pref: ImageVolume = 'MacIntosh', ImageName = '\private\var\vm\sleepimage'
+10:230  0:003      sleepimage not found -> Not Found
+10:230  0:000          hibernated: no - sign
+10:236  0:006          AddLoaderEntry for Volume Name=MacIntosh
+10:239  0:002  - [13]: 'Recovery HD'
+10:239  0:000          AddLoaderEntry for Volume Name=Recovery HD
+10:240  0:000  === [ AddCustomLegacy ] ===================================
+10:240  0:000  === [ AddCustomTool ] =====================================
+10:240  0:000  found tool \EFI\CLOVER\tools\Shell64U.efi
+10:240  0:000  Checking EFI partition Volume 2 for Clover
+10:240  0:000   Found Clover
+10:240  0:000  === [ FindDefaultEntry ] ==================================
+10:240  0:000  === [ GetEfiBootDeviceFromNvram ] =========================
+10:240  0:000  Default boot entry not found
+10:240  0:000  DefaultIndex=-1 and MainMenu.EntryCount=17
+50:379  40:138  ReinitSelfLib after theme change
+50:379  0:000  reinit: self device path=PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(1,GPT,E7ADF2E5-7FBD-4525-8B95-2A4F81F3FA85,0x800,0x95800)
+50:379  0:000  === [ ScanVolumes ] =======================================
+50:379  0:000  Found 14 volumes with blockIO
+50:379  0:000  - [00]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)
+50:390  0:011          Result of bootcode detection: bootable unknown (legacy)
+50:390  0:000  - [01]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x0,0x0)
+50:395  0:005  - [02]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(1,GPT,E7ADF2E5-7FBD-4525-8B95-2A4F81F3FA85,0x800,0x95800)
+50:395  0:000          Result of bootcode detection: bootable Clover (clover)
+50:395  0:000          This is SelfVolume !!
+50:395  0:000  - [03]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(2,GPT,BA2E8007-9218-4A6B-AD6B-13C5CBDB5816,0x96000,0x40000)
+50:396  0:000  - [04]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(3,GPT,39978A98-BEF8-42E9-A955-8CD7F4B18108,0xD6000,0xC6910E0)
+50:396  0:000  - [05]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(4,GPT,EF8D6AD8-5D4A-4939-8F59-DC6DC757FE51,0xC7A70E0,0x135F20)
+50:396  0:000  - [06]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(5,GPT,243C7E15-36CA-4238-8768-24AE70AB6E85,0xC8DD000,0xF000000)
+50:396  0:000          Result of bootcode detection: bootable Windows (vista,win)
+50:398  0:001  - [07]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(6,GPT,E1D13468-1BEE-4039-B8E3-74F32B4E79DC,0x1B8DD000,0xF000800)
+50:399  0:000          Result of bootcode detection: bootable Windows (vista,win)
+50:400  0:001  - [08]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(7,GPT,690DFD0E-9550-4AF6-958C-48FEE02DA492,0x2A8DD800,0x8C00000)
+50:400  0:000          Result of bootcode detection: bootable Windows (vista,win)
+50:407  0:006  - [09]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(8,GPT,EEA95D53-6B3E-44C9-B78A-590BB8ABF1BB,0x334DD800,0x482FF68)
+50:407  0:000  - [10]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(9,GPT,854A2882-0C45-4F0F-8199-6FCA16BE85EB,0x37D0D768,0x135F20)
+50:408  0:000  - [11]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x0,0x0)\HD(1,GPT,847CED00-3DEF-4679-ABBF-C07FC3C96D5A,0x28,0x64000)
+50:408  0:000          Result of bootcode detection: bootable unknown (legacy)
+50:408  0:000  - [12]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x0,0x0)\HD(2,GPT,F0D12EBE-1A37-4527-9EB1-EF4AD8153916,0x64028,0x1CFEBA00)
+50:408  0:000  - [13]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x0,0x0)\HD(3,GPT,21BBE6E4-FDA7-419B-820F-C8897EB4400C,0x1D08FA28,0x135F20)
+50:408  0:000  Choosing theme <null string>
+50:408  0:000  after NVRAM boot-args=slide=0 dart=0 npci=0x2000 nv_disable=1 kext-dev-mode=1 rootless=0
+50:409  0:000  === [ ScanLoader ] ========================================
+50:409  0:000  - [02]: 'EFI'
+50:409  0:000          AddLoaderEntry for Volume Name=EFI
+50:410  0:001  - [04]: 'OS X El Capitan'
+50:418  0:008          AddLoaderEntry for Volume Name=OS X El Capitan
+50:429  0:010          Check if volume Is Hibernated:
+50:429  0:000      Check sleep image 'by signature':
+50:438  0:008      read prefs \Library\Preferences\SystemConfiguration\com.apple.PowerManagement.plist status=Success
+50:438  0:000      SleepImage name from pref: ImageVolume = 'OS X El Capitan', ImageName = '\private\var\vm\sleepimage'
+50:446  0:008      Reading first 512 bytes of sleepimage ...
+50:446  0:000   OurBlockIoRead: Lba=A0D6008, Offset=141AC01000 (BlockSize=512)
+50:446  0:000   sig lion: 7A7A7A7A
+50:446  0:000   sig snow: 0
+50:446  0:000   no valid sleep image offset was found
+50:446  0:000      Reading completed -> Success
+50:446  0:000       sleepimage offset could not be acquired
+50:446  0:000          hibernated: no - sign
+50:447  0:000          AddLoaderEntry for Volume Name=OS X El Capitan
+50:450  0:002  - [05]: 'Recovery HD'
+50:450  0:000          AddLoaderEntry for Volume Name=Recovery HD
+50:451  0:000  - [06]: 'Win7'
+50:537  0:086          AddLoaderEntry for Volume Name=Win7
+50:661  0:123  - [07]: 'Win10'
+50:700  0:039          AddLoaderEntry for Volume Name=Win10
+50:757  0:056  - [08]: 'DEVELOP'
+50:861  0:104  - [09]: 'macOS Sierra'
+50:868  0:006          AddLoaderEntry for Volume Name=macOS Sierra
+50:869  0:001          Check if volume Is Hibernated:
+50:869  0:000      Check sleep image 'by signature':
+50:878  0:008      read prefs \Library\Preferences\SystemConfiguration\com.apple.PowerManagement.plist status=Not Found
+50:878  0:000      using default sleep image name = \private\var\vm\sleepimage
+50:896  0:018      Reading first 512 bytes of sleepimage ...
+50:897  0:000   OurBlockIoRead: Lba=352E5848, Offset=6A5CB09000 (BlockSize=512)
+50:897  0:000   sig lion: 7A7A7A7A
+50:897  0:000   sig snow: 0
+50:897  0:000   no valid sleep image offset was found
+50:897  0:000      Reading completed -> Success
+50:897  0:000       sleepimage offset could not be acquired
+50:897  0:000          hibernated: no - sign
+50:898  0:001  - [10]: 'Recovery HD'
+50:898  0:000          AddLoaderEntry for Volume Name=Recovery HD
+50:899  0:000  - [11]: 'EFI'
+50:900  0:000  - [12]: 'MacIntosh'
+50:907  0:007          AddLoaderEntry for Volume Name=MacIntosh
+50:917  0:009          Check if volume Is Hibernated:
+50:917  0:000      Check sleep image 'by signature':
+50:920  0:003      read prefs \Library\Preferences\SystemConfiguration\com.apple.PowerManagement.plist status=Success
+50:920  0:000      SleepImage name from pref: ImageVolume = 'MacIntosh', ImageName = '\private\var\vm\sleepimage'
+50:928  0:007      sleepimage not found -> Not Found
+50:928  0:000          hibernated: no - sign
+50:929  0:001          AddLoaderEntry for Volume Name=MacIntosh
+50:935  0:005  - [13]: 'Recovery HD'
+50:935  0:000          AddLoaderEntry for Volume Name=Recovery HD
+50:936  0:000  === [ AddCustomLegacy ] ===================================
+50:936  0:000  === [ AddCustomTool ] =====================================
+50:936  0:000  found tool \EFI\CLOVER\tools\Shell64U.efi
+50:936  0:000  Checking EFI partition Volume 2 for Clover
+50:936  0:000   Found Clover
+50:936  0:000  === [ FindDefaultEntry ] ==================================
+50:936  0:000  === [ GetEfiBootDeviceFromNvram ] =========================
+50:936  0:000  Default boot entry not found
+50:936  0:000  DefaultIndex=-1 and MainMenu.EntryCount=17
+52:930  1:993  Found BIOS RSDP at FE020
+52:930  0:000  Saving ACPI tables from RSDP FE020 to EFI\CLOVER\ACPI\origin ...
+52:930  0:000   FE020: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+52:947  0:017    (Xsdt: 96FFE120, Rsdt: 96FFE0AC)
+52:947  0:000    96FFE120: 'XSDT', 'ACRPRDCT', Rev: 1, Len: 132 -> XSDT.aml
+52:958  0:011    96FFE0AC: 'RSDT', 'ACRPRDCT', Rev: 1, Len: 84 -> RSDT.aml
+52:967  0:008    Tables in Xsdt: 12
+52:967  0:000    0. 96FFC000: 'FACP', 'ACRPRDCT', Rev: 4, Len: 244 -> FACP.aml
+52:975  0:008        (Dsdt: 96FEF000, Facs: 96F6D000, XDsdt: 96FEF000, XFacs: 96F6D000)
+52:975  0:000        96FEF000: 'DSDT', 'ACRPRDCT', Rev: 1, Len: 36921 -> DSDT.aml
+52:989  0:013        96F6D000: 'FACS', Ver: 1, Len: 64 -> FACS.aml
+52:997  0:008    1. 96FFD000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165 -> ASF!.aml
+53:006  0:008    2. 96FFB000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56 -> HPET.aml
+53:014  0:007    3. 96FFA000: 'APIC', 'ACRPRDCT', Rev: 2, Len: 140 -> APIC.aml
+53:019  0:004    4. 96FF9000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60 -> MCFG.aml
+53:028  0:008    5. 96FEE000: 'SLIC', 'ACRPRDCT', Rev: 1, Len: 374 -> SLIC.aml
+53:039  0:010    6. 96FED000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 3010 -> SSDT-0.aml
+53:048  0:009    7. 96FEB000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40 -> BOOT.aml
+53:057  0:009    8. 96FE8000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52 -> ASPT.aml
+53:078  0:020    9. 96FE7000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 1920 -> SSDT-1.aml
+53:086  0:008    10. 96FE6000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 2454
+ Found hidden SSDT 4 pcs
+53:086  0:000        * 95010018: '', '', Rev: 0, Len: 0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00       * 96E71A98: 'SSDT', 'ApIst', Rev: 1, Len: 771  53 53 44 54 03 03 00 00 01 71 50 6D 52 65 66 00 Internal length = 771 -> SSDT-3x.aml
+53:095  0:008        * 96E70718: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 1660  53 53 44 54 7C 06 00 00 01 EB 50 6D 52 65 66 00 Internal length = 1660 -> SSDT-4x.aml
+53:100  0:005        * 96E6FD98: 'SSDT', 'ApCst', Rev: 1, Len: 281  53 53 44 54 19 01 00 00 01 E7 50 6D 52 65 66 00 Internal length = 281 -> SSDT-5x.aml
+53:111  0:010   -> SSDT-2.aml
+53:121  0:009    11. 96FE1000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 20312 -> SSDT-6.aml
+53:141  0:019    Tables in Rsdt: 12
+53:141  0:000    0. 96FFC000: 'FACP', 'ACRPRDCT', Rev: 4, Len: 244
+53:141  0:000        (Dsdt: 96FEF000, Facs: 96F6D000, XDsdt: 96FEF000, XFacs: 96F6D000)
+53:141  0:000        96FEF000: 'DSDT', 'ACRPRDCT', Rev: 1, Len: 36921
+53:141  0:000        96F6D000: 'FACS', Ver: 1, Len: 64
+53:141  0:000    1. 96FFD000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+53:141  0:000    2. 96FFB000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+53:141  0:000    3. 96FFA000: 'APIC', 'ACRPRDCT', Rev: 2, Len: 140
+53:141  0:000    4. 96FF9000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+53:141  0:000    5. 96FEE000: 'SLIC', 'ACRPRDCT', Rev: 1, Len: 374
+53:141  0:000    6. 96FED000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 3010
+53:141  0:000    7. 96FEB000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+53:141  0:000    8. 96FE8000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+53:141  0:000    9. 96FE7000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 1920
+53:141  0:000    10. 96FE6000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 2454
+53:141  0:000    11. 96FE1000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 20312
+53:141  0:000  Found UEFI Acpi 2.0 RSDP at 96A73000
+53:141  0:000  Printing ACPI tables from RSDP 96A73000 ...
+53:141  0:000   96A73000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+53:141  0:000    (Xsdt: 96FFE120, Rsdt: 96FFE0AC)
+53:141  0:000    96FFE120: 'XSDT', 'ACRPRDCT', Rev: 1, Len: 132
+53:141  0:000    96FFE0AC: 'RSDT', 'ACRPRDCT', Rev: 1, Len: 84
+53:141  0:000    Tables in Xsdt: 12
+53:141  0:000    0. 96FFC000: 'FACP', 'ACRPRDCT', Rev: 4, Len: 244
+53:141  0:000        (Dsdt: 96FEF000, Facs: 96F6D000, XDsdt: 96FEF000, XFacs: 96F6D000)
+53:141  0:000        96FEF000: 'DSDT', 'ACRPRDCT', Rev: 1, Len: 36921
+53:145  0:004        96F6D000: 'FACS', Ver: 1, Len: 64
+53:145  0:000    1. 96FFD000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+53:145  0:000    2. 96FFB000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+53:145  0:000    3. 96FFA000: 'APIC', 'ACRPRDCT', Rev: 2, Len: 140
+53:145  0:000    4. 96FF9000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+53:145  0:000    5. 96FEE000: 'SLIC', 'ACRPRDCT', Rev: 1, Len: 374
+53:145  0:000    6. 96FED000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 3010
+53:145  0:000    7. 96FEB000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+53:145  0:000    8. 96FE8000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+53:145  0:000    9. 96FE7000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 1920
+53:145  0:000    10. 96FE6000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 2454
+53:145  0:000    11. 96FE1000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 20312
+53:145  0:000    Tables in Rsdt: 12
+53:145  0:000    0. 96FFC000: 'FACP', 'ACRPRDCT', Rev: 4, Len: 244
+53:145  0:000        (Dsdt: 96FEF000, Facs: 96F6D000, XDsdt: 96FEF000, XFacs: 96F6D000)
+53:145  0:000        96FEF000: 'DSDT', 'ACRPRDCT', Rev: 1, Len: 36921
+53:146  0:000        96F6D000: 'FACS', Ver: 1, Len: 64
+53:146  0:000    1. 96FFD000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+53:146  0:000    2. 96FFB000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+53:146  0:000    3. 96FFA000: 'APIC', 'ACRPRDCT', Rev: 2, Len: 140
+53:146  0:000    4. 96FF9000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+53:146  0:000    5. 96FEE000: 'SLIC', 'ACRPRDCT', Rev: 1, Len: 374
+53:146  0:000    6. 96FED000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 3010
+53:146  0:000    7. 96FEB000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+53:146  0:000    8. 96FE8000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+53:146  0:000    9. 96FE7000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 1920
+53:146  0:000    10. 96FE6000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 2454
+53:146  0:000    11. 96FE1000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 20312
+54:121  0:975  DSDT found in Clover volume OEM folder: EFI\CLOVER\ACPI\patched\DSDT.aml
+54:125  0:004  === [ FixBiosDsdt ] =======================================
+54:125  0:000  VideoCard devID=0xDF410DE
+54:125  0:000  DisplayADR1[0] = 0x10000, DisplayADR2[0] = 0x0
+54:125  0:000  VideoCard devID=0x1168086
+54:125  0:000  DisplayADR1[1] = 0x20000, DisplayADR2[1] = 0xFFFE
+54:126  0:000  USBADR[0] = 0x1A0000 and PCIe = 0xFFFE
+54:126  0:000  Found Airport Atheros at 0x1C0001, 0x0, DeviceID=0x002E
+54:126  0:000  USBADR[1] = 0x1C0003 and PCIe = 0x0
+54:126  0:000  USBADR[2] = 0x1D0000 and PCIe = 0xFFFE
+54:126  0:000  Patching DSDT:
+54:126  0:000   - [00]: pattern 45484331, patched at: [ (56D1) (1767) ]
+54:126  0:000   - [01]: pattern 45484332, patched at: [ (5ACD) (137D) ]
+54:126  0:000  first CPU found at 4210 offset 4213
+54:126  0:000  score candidate at 420C
+54:126  0:000  score inserted in acpi_cpu_score _PR_
+54:126  0:000  Found ACPI CPU: CPU0 | CPU1 | CPU2 | CPU3 | CPU4 | CPU5 | CPU6 | CPU7 , within the score: _PR_
+54:127  0:000  Found PCIROOTUID = 0
+54:127  0:000  Start RTC Fix
+54:127  0:000  found RTC Length not match, Maybe will case CMOS reset will patch it.
+54:127  0:000  Start TMR Fix
+54:127  0:000  Start PIC Fix
+54:127  0:000  PIC size=A2 at 1CA9
+54:127  0:000  found CRS at 1CBD size 8A
+54:127  0:000  Start HPET Fix
+54:127  0:000  Start Display0 Fix
+54:127  0:000  Found internal video device 0 @8EB3
+54:127  0:000  Skipping Method(_DSM) for 10DE card
+54:127  0:000  now inserting Video device
+54:127  0:000  ... into existing bridge
+54:127  0:000  patch Display #0 of Vendor=0x10DE in DSDT old way
+54:128  0:000  Start Display1 Fix
+54:128  0:000   builtin display
+54:128  0:000  Skipping Method(_DSM) for 8086 card
+54:128  0:000  now inserting Video device
+54:128  0:000  ... into existing bridge
+54:128  0:000  patch Display #1 of Vendor=0x8086 in DSDT old way
+54:128  0:000  Start NetWork Fix
+54:128  0:000  found NetWork device [0x001C0000:0] at 5E32 and Name is PXSX
+54:128  0:000  NetworkADR1=1C0000 NetworkADR2=0
+54:128  0:000  network DSM created, size=7F
+54:129  0:000  Start Airport Fix
+54:129  0:000  found Airport device [001C0001:0] at 6013 And Name is PXSX
+54:129  0:000  Name PXSX present at 0x7A, renaming to ARPT
+54:129  0:000  Name PXSX present at 0xB8, renaming to ARPT
+54:129  0:000  AirportADR=6013 add patch size=121
+54:129  0:000  adr 6013 size of arpt=17
+54:129  0:000  Start SBUS Fix PCI=952 len=9311
+54:129  0:000  device (SBUS) found at 69D1
+54:129  0:000  SBUS code size fix = 0x0000005D
+54:129  0:000  patch HDEF in DSDT 
+54:129  0:000  Start HDA Fix
+54:129  0:000  found HDA device NAME(_ADR,0x001B0000) And Name is HDEF
+54:130  0:000  NewName HDEF already present, renaming impossibble
+54:130  0:000  Start _WAK Return Fix
+54:130  0:000  _WAK Method find return data, don't need to patch.
+54:130  0:000  return len=93C8
+54:130  0:000   deleting device CRT_
+54:130  0:000   deleting device DVI_
+54:130  0:000   deleting device SPKR
+54:130  0:000   deleting device ECP_
+54:131  0:000   deleting device LPT_
+54:131  0:000   deleting device FDC0
+54:131  0:000   deleting device ECP1
+54:131  0:000   deleting device LPT1
+54:137  0:005  Start PNLF Fix
+54:137  0:000  found PWRB at 2CAE
+54:137  0:000  Start _S3D Fix
+54:137  0:000  Start ADP1 fix
+54:137  0:000  Name ACAD present at 0x251C, renaming to ADP1
+54:137  0:000  Name ACAD present at 0x256D, renaming to ADP1
+54:137  0:000  Name ACAD present at 0x28DC, renaming to ADP1
+54:138  0:000  Start Darwin Fix
+54:138  0:000  Name _OSI present at 0x4B8F, renaming to OOSI
+54:138  0:000  Name _OSI present at 0x4B96, renaming to OOSI
+54:138  0:000  Name _OSI present at 0x4BB2, renaming to OOSI
+54:138  0:000  Name _OSI present at 0x4BD5, renaming to OOSI
+54:138  0:000  Name _OSI present at 0x4BF8, renaming to OOSI
+54:138  0:000  Name _OSI present at 0x4C16, renaming to OOSI
+54:138  0:000  Name _OSI present at 0x4C35, renaming to OOSI
+54:138  0:000  Name _OSI present at 0x4C55, renaming to OOSI
+54:138  0:000  Name _OSI present at 0x4C75, renaming to OOSI
+54:138  0:000  Start SHUTDOWN Fix len=94A9
+54:151  0:012  DSDT saved to EFI\CLOVER\ACPI\origin\DSDT-E9D7.aml
+54:356  0:204  DSDT found in Clover volume OEM folder: EFI\CLOVER\ACPI\patched\DSDT.aml
+54:356  0:000  === [ FixBiosDsdt ] =======================================
+54:356  0:000  VideoCard devID=0xDF410DE
+54:356  0:000  DisplayADR1[0] = 0x10000, DisplayADR2[0] = 0x0
+54:356  0:000  VideoCard devID=0x1168086
+54:356  0:000  DisplayADR1[1] = 0x20000, DisplayADR2[1] = 0xFFFE
+54:356  0:000  USBADR[0] = 0x1A0000 and PCIe = 0xFFFE
+54:356  0:000  Found Airport Atheros at 0x1C0001, 0x0, DeviceID=0x002E
+54:356  0:000  USBADR[1] = 0x1C0003 and PCIe = 0x0
+54:356  0:000  USBADR[2] = 0x1D0000 and PCIe = 0xFFFE
+54:356  0:000  Patching DSDT:
+54:356  0:000   - [00]: pattern 45484331, patched at: [ (56D1) (1767) ]
+54:356  0:000   - [01]: pattern 45484332, patched at: [ (5ACD) (137D) ]
+54:357  0:000  first CPU found at 4210 offset 4213
+54:357  0:000  score candidate at 420C
+54:357  0:000  score inserted in acpi_cpu_score _PR_
+54:357  0:000  Found ACPI CPU: CPU0 | CPU1 | CPU2 | CPU3 | CPU4 | CPU5 | CPU6 | CPU7 , within the score: _PR_
+54:357  0:000  Found PCIROOTUID = 0
+54:357  0:000  Start RTC Fix
+54:357  0:000  found RTC Length not match, Maybe will case CMOS reset will patch it.
+54:357  0:000  Start TMR Fix
+54:357  0:000  Start PIC Fix
+54:357  0:000  PIC size=A2 at 1CA9
+54:357  0:000  found CRS at 1CBD size 8A
+54:357  0:000  Start HPET Fix
+54:358  0:000  Start Display0 Fix
+54:358  0:000  Found internal video device 0 @8EB3
+54:358  0:000  Skipping Method(_DSM) for 10DE card
+54:358  0:000  now inserting Video device
+54:358  0:000  ... into existing bridge
+54:358  0:000  patch Display #0 of Vendor=0x10DE in DSDT old way
+54:358  0:000  Start Display1 Fix
+54:358  0:000   builtin display
+54:358  0:000  Skipping Method(_DSM) for 8086 card
+54:358  0:000  now inserting Video device
+54:358  0:000  ... into existing bridge
+54:358  0:000  patch Display #1 of Vendor=0x8086 in DSDT old way
+54:358  0:000  Start NetWork Fix
+54:359  0:000  found NetWork device [0x001C0000:0] at 5E32 and Name is PXSX
+54:359  0:000  NetworkADR1=1C0000 NetworkADR2=0
+54:359  0:000  network DSM created, size=7F
+54:359  0:000  Start Airport Fix
+54:359  0:000  found Airport device [001C0001:0] at 6013 And Name is PXSX
+54:359  0:000  Name PXSX present at 0x7A, renaming to ARPT
+54:359  0:000  Name PXSX present at 0xB8, renaming to ARPT
+54:359  0:000  AirportADR=6013 add patch size=121
+54:359  0:000  adr 6013 size of arpt=17
+54:359  0:000  Start SBUS Fix PCI=952 len=9311
+54:359  0:000  device (SBUS) found at 69D1
+54:359  0:000  SBUS code size fix = 0x0000005D
+54:359  0:000  patch HDEF in DSDT 
+54:360  0:000  Start HDA Fix
+54:360  0:000  found HDA device NAME(_ADR,0x001B0000) And Name is HDEF
+54:360  0:000  NewName HDEF already present, renaming impossibble
+54:360  0:000  Start _WAK Return Fix
+54:360  0:000  _WAK Method find return data, don't need to patch.
+54:360  0:000  return len=93C8
+54:360  0:000   deleting device CRT_
+54:360  0:000   deleting device DVI_
+54:360  0:000   deleting device SPKR
+54:361  0:000   deleting device ECP_
+54:361  0:000   deleting device LPT_
+54:361  0:000   deleting device FDC0
+54:367  0:005   deleting device ECP1
+54:367  0:000   deleting device LPT1
+54:368  0:000  Start PNLF Fix
+54:368  0:000  found PWRB at 2CAE
+54:368  0:000  Start _S3D Fix
+54:368  0:000  Start ADP1 fix
+54:368  0:000  Name ACAD present at 0x251C, renaming to ADP1
+54:368  0:000  Name ACAD present at 0x256D, renaming to ADP1
+54:368  0:000  Name ACAD present at 0x28DC, renaming to ADP1
+54:368  0:000  Start Darwin Fix
+54:368  0:000  Name _OSI present at 0x4B8F, renaming to OOSI
+54:368  0:000  Name _OSI present at 0x4B96, renaming to OOSI
+54:368  0:000  Name _OSI present at 0x4BB2, renaming to OOSI
+54:368  0:000  Name _OSI present at 0x4BD5, renaming to OOSI
+54:368  0:000  Name _OSI present at 0x4BF8, renaming to OOSI
+54:368  0:000  Name _OSI present at 0x4C16, renaming to OOSI
+54:368  0:000  Name _OSI present at 0x4C35, renaming to OOSI
+54:368  0:000  Name _OSI present at 0x4C55, renaming to OOSI
+54:368  0:000  Name _OSI present at 0x4C75, renaming to OOSI
+54:368  0:000  Start SHUTDOWN Fix len=94A9
+54:389  0:021  DSDT saved to EFI\CLOVER\ACPI\origin\DSDT-E9D7.aml
+55:470  1:080  Found BIOS RSDP at FE020
+55:470  0:000  Saving ACPI tables from RSDP FE020 to EFI\CLOVER\ACPI\origin ...
+55:470  0:000   FE020: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+55:470  0:000    (Xsdt: 96FFE120, Rsdt: 96FFE0AC)
+55:470  0:000    96FFE120: 'XSDT', 'ACRPRDCT', Rev: 1, Len: 132
+55:470  0:000    96FFE0AC: 'RSDT', 'ACRPRDCT', Rev: 1, Len: 84
+55:470  0:000    Tables in Xsdt: 12
+55:470  0:000    0. 96FFC000: 'FACP', 'ACRPRDCT', Rev: 4, Len: 244
+55:470  0:000        (Dsdt: 96FEF000, Facs: 96F6D000, XDsdt: 96FEF000, XFacs: 96F6D000)
+55:470  0:000        96FEF000: 'DSDT', 'ACRPRDCT', Rev: 1, Len: 36921
+55:470  0:000        96F6D000: 'FACS', Ver: 1, Len: 64
+55:470  0:000    1. 96FFD000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+55:470  0:000    2. 96FFB000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+55:470  0:000    3. 96FFA000: 'APIC', 'ACRPRDCT', Rev: 2, Len: 140
+55:470  0:000    4. 96FF9000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+55:470  0:000    5. 96FEE000: 'SLIC', 'ACRPRDCT', Rev: 1, Len: 374
+55:470  0:000    6. 96FED000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 3010
+55:470  0:000    7. 96FEB000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+55:470  0:000    8. 96FE8000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+55:470  0:000    9. 96FE7000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 1920
+55:470  0:000    10. 96FE6000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 2454
+55:470  0:000    11. 96FE1000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 20312
+55:470  0:000    Tables in Rsdt: 12
+55:470  0:000    0. 96FFC000: 'FACP', 'ACRPRDCT', Rev: 4, Len: 244
+55:470  0:000        (Dsdt: 96FEF000, Facs: 96F6D000, XDsdt: 96FEF000, XFacs: 96F6D000)
+55:470  0:000        96FEF000: 'DSDT', 'ACRPRDCT', Rev: 1, Len: 36921
+55:471  0:000        96F6D000: 'FACS', Ver: 1, Len: 64
+55:471  0:000    1. 96FFD000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+55:471  0:000    2. 96FFB000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+55:471  0:000    3. 96FFA000: 'APIC', 'ACRPRDCT', Rev: 2, Len: 140
+55:471  0:000    4. 96FF9000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+55:471  0:000    5. 96FEE000: 'SLIC', 'ACRPRDCT', Rev: 1, Len: 374
+55:471  0:000    6. 96FED000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 3010
+55:471  0:000    7. 96FEB000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+55:471  0:000    8. 96FE8000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+55:471  0:000    9. 96FE7000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 1920
+55:471  0:000    10. 96FE6000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 2454
+55:471  0:000    11. 96FE1000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 20312
+55:471  0:000  Found UEFI Acpi 2.0 RSDP at 96A73000
+55:471  0:000  Printing ACPI tables from RSDP 96A73000 ...
+55:471  0:000   96A73000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+55:471  0:000    (Xsdt: 96FFE120, Rsdt: 96FFE0AC)
+55:471  0:000    96FFE120: 'XSDT', 'ACRPRDCT', Rev: 1, Len: 132
+55:471  0:000    96FFE0AC: 'RSDT', 'ACRPRDCT', Rev: 1, Len: 84
+55:471  0:000    Tables in Xsdt: 12
+55:471  0:000    0. 96FFC000: 'FACP', 'ACRPRDCT', Rev: 4, Len: 244
+55:471  0:000        (Dsdt: 96FEF000, Facs: 96F6D000, XDsdt: 96FEF000, XFacs: 96F6D000)
+55:471  0:000        96FEF000: 'DSDT', 'ACRPRDCT', Rev: 1, Len: 36921
+55:471  0:000        96F6D000: 'FACS', Ver: 1, Len: 64
+55:471  0:000    1. 96FFD000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+55:471  0:000    2. 96FFB000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+55:471  0:000    3. 96FFA000: 'APIC', 'ACRPRDCT', Rev: 2, Len: 140
+55:471  0:000    4. 96FF9000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+55:471  0:000    5. 96FEE000: 'SLIC', 'ACRPRDCT', Rev: 1, Len: 374
+55:471  0:000    6. 96FED000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 3010
+55:471  0:000    7. 96FEB000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+55:471  0:000    8. 96FE8000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+55:471  0:000    9. 96FE7000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 1920
+55:471  0:000    10. 96FE6000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 2454
+55:471  0:000    11. 96FE1000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 20312
+55:471  0:000    Tables in Rsdt: 12
+55:471  0:000    0. 96FFC000: 'FACP', 'ACRPRDCT', Rev: 4, Len: 244
+55:471  0:000        (Dsdt: 96FEF000, Facs: 96F6D000, XDsdt: 96FEF000, XFacs: 96F6D000)
+55:471  0:000        96FEF000: 'DSDT', 'ACRPRDCT', Rev: 1, Len: 36921
+55:477  0:005        96F6D000: 'FACS', Ver: 1, Len: 64
+55:477  0:000    1. 96FFD000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+55:477  0:000    2. 96FFB000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+55:477  0:000    3. 96FFA000: 'APIC', 'ACRPRDCT', Rev: 2, Len: 140
+55:477  0:000    4. 96FF9000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+55:477  0:000    5. 96FEE000: 'SLIC', 'ACRPRDCT', Rev: 1, Len: 374
+55:477  0:000    6. 96FED000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 3010
+55:477  0:000    7. 96FEB000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+55:477  0:000    8. 96FE8000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+55:477  0:000    9. 96FE7000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 1920
+55:477  0:000    10. 96FE6000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 2454
+55:477  0:000    11. 96FE1000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 20312
+56:188  0:711  Found BIOS RSDP at FE020
+56:188  0:000  Saving ACPI tables from RSDP FE020 to EFI\CLOVER\ACPI\origin ...
+56:188  0:000   FE020: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+56:188  0:000    (Xsdt: 96FFE120, Rsdt: 96FFE0AC)
+56:188  0:000    96FFE120: 'XSDT', 'ACRPRDCT', Rev: 1, Len: 132
+56:188  0:000    96FFE0AC: 'RSDT', 'ACRPRDCT', Rev: 1, Len: 84
+56:188  0:000    Tables in Xsdt: 12
+56:188  0:000    0. 96FFC000: 'FACP', 'ACRPRDCT', Rev: 4, Len: 244
+56:188  0:000        (Dsdt: 96FEF000, Facs: 96F6D000, XDsdt: 96FEF000, XFacs: 96F6D000)
+56:188  0:000        96FEF000: 'DSDT', 'ACRPRDCT', Rev: 1, Len: 36921
+56:188  0:000        96F6D000: 'FACS', Ver: 1, Len: 64
+56:188  0:000    1. 96FFD000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+56:188  0:000    2. 96FFB000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+56:188  0:000    3. 96FFA000: 'APIC', 'ACRPRDCT', Rev: 2, Len: 140
+56:188  0:000    4. 96FF9000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+56:188  0:000    5. 96FEE000: 'SLIC', 'ACRPRDCT', Rev: 1, Len: 374
+56:188  0:000    6. 96FED000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 3010
+56:188  0:000    7. 96FEB000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+56:188  0:000    8. 96FE8000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+56:189  0:000    9. 96FE7000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 1920
+56:189  0:000    10. 96FE6000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 2454
+56:189  0:000    11. 96FE1000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 20312
+56:189  0:000    Tables in Rsdt: 12
+56:189  0:000    0. 96FFC000: 'FACP', 'ACRPRDCT', Rev: 4, Len: 244
+56:189  0:000        (Dsdt: 96FEF000, Facs: 96F6D000, XDsdt: 96FEF000, XFacs: 96F6D000)
+56:189  0:000        96FEF000: 'DSDT', 'ACRPRDCT', Rev: 1, Len: 36921
+56:189  0:000        96F6D000: 'FACS', Ver: 1, Len: 64
+56:189  0:000    1. 96FFD000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+56:189  0:000    2. 96FFB000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+56:189  0:000    3. 96FFA000: 'APIC', 'ACRPRDCT', Rev: 2, Len: 140
+56:189  0:000    4. 96FF9000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+56:189  0:000    5. 96FEE000: 'SLIC', 'ACRPRDCT', Rev: 1, Len: 374
+56:189  0:000    6. 96FED000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 3010
+56:189  0:000    7. 96FEB000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+56:189  0:000    8. 96FE8000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+56:189  0:000    9. 96FE7000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 1920
+56:189  0:000    10. 96FE6000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 2454
+56:189  0:000    11. 96FE1000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 20312
+56:189  0:000  Found UEFI Acpi 2.0 RSDP at 96A73000
+56:189  0:000  Printing ACPI tables from RSDP 96A73000 ...
+56:189  0:000   96A73000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+56:189  0:000    (Xsdt: 96FFE120, Rsdt: 96FFE0AC)
+56:189  0:000    96FFE120: 'XSDT', 'ACRPRDCT', Rev: 1, Len: 132
+56:189  0:000    96FFE0AC: 'RSDT', 'ACRPRDCT', Rev: 1, Len: 84
+56:189  0:000    Tables in Xsdt: 12
+56:189  0:000    0. 96FFC000: 'FACP', 'ACRPRDCT', Rev: 4, Len: 244
+56:189  0:000        (Dsdt: 96FEF000, Facs: 96F6D000, XDsdt: 96FEF000, XFacs: 96F6D000)
+56:189  0:000        96FEF000: 'DSDT', 'ACRPRDCT', Rev: 1, Len: 36921
+56:189  0:000        96F6D000: 'FACS', Ver: 1, Len: 64
+56:189  0:000    1. 96FFD000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+56:189  0:000    2. 96FFB000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+56:189  0:000    3. 96FFA000: 'APIC', 'ACRPRDCT', Rev: 2, Len: 140
+56:189  0:000    4. 96FF9000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+56:189  0:000    5. 96FEE000: 'SLIC', 'ACRPRDCT', Rev: 1, Len: 374
+56:189  0:000    6. 96FED000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 3010
+56:189  0:000    7. 96FEB000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+56:189  0:000    8. 96FE8000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+56:189  0:000    9. 96FE7000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 1920
+56:189  0:000    10. 96FE6000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 2454
+56:189  0:000    11. 96FE1000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 20312
+56:189  0:000    Tables in Rsdt: 12
+56:189  0:000    0. 96FFC000: 'FACP', 'ACRPRDCT', Rev: 4, Len: 244
+56:189  0:000        (Dsdt: 96FEF000, Facs: 96F6D000, XDsdt: 96FEF000, XFacs: 96F6D000)
+56:189  0:000        96FEF000: 'DSDT', 'ACRPRDCT', Rev: 1, Len: 36921
+56:190  0:000        96F6D000: 'FACS', Ver: 1, Len: 64
+56:190  0:000    1. 96FFD000: 'ASF!', 'ACRPRDCT', Rev: 32, Len: 165
+56:190  0:000    2. 96FFB000: 'HPET', 'ACRPRDCT', Rev: 1, Len: 56
+56:190  0:000    3. 96FFA000: 'APIC', 'ACRPRDCT', Rev: 2, Len: 140
+56:190  0:000    4. 96FF9000: 'MCFG', 'ACRPRDCT', Rev: 1, Len: 60
+56:190  0:000    5. 96FEE000: 'SLIC', 'ACRPRDCT', Rev: 1, Len: 374
+56:190  0:000    6. 96FED000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 3010
+56:190  0:000    7. 96FEB000: 'BOOT', 'ACRPRDCT', Rev: 1, Len: 40
+56:190  0:000    8. 96FE8000: 'ASPT', 'ACRPRDCT', Rev: 7, Len: 52
+56:190  0:000    9. 96FE7000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 1920
+56:190  0:000    10. 96FE6000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 2454
+56:190  0:000    11. 96FE1000: 'SSDT', 'ACRPRDCT', Rev: 1, Len: 20312
+56:677  0:487  ReinitSelfLib after theme change
+56:678  0:000  reinit: self device path=PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(1,GPT,E7ADF2E5-7FBD-4525-8B95-2A4F81F3FA85,0x800,0x95800)
+56:678  0:000  === [ ScanVolumes ] =======================================
+56:678  0:000  Found 14 volumes with blockIO
+56:678  0:000  - [00]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)
+56:689  0:010          Result of bootcode detection: bootable unknown (legacy)
+56:689  0:000  - [01]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x0,0x0)
+56:690  0:001  - [02]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(1,GPT,E7ADF2E5-7FBD-4525-8B95-2A4F81F3FA85,0x800,0x95800)
+56:690  0:000          Result of bootcode detection: bootable Clover (clover)
+56:690  0:000          This is SelfVolume !!
+56:690  0:000  - [03]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(2,GPT,BA2E8007-9218-4A6B-AD6B-13C5CBDB5816,0x96000,0x40000)
+56:691  0:000  - [04]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(3,GPT,39978A98-BEF8-42E9-A955-8CD7F4B18108,0xD6000,0xC6910E0)
+56:691  0:000  - [05]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(4,GPT,EF8D6AD8-5D4A-4939-8F59-DC6DC757FE51,0xC7A70E0,0x135F20)
+56:691  0:000  - [06]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(5,GPT,243C7E15-36CA-4238-8768-24AE70AB6E85,0xC8DD000,0xF000000)
+56:697  0:005          Result of bootcode detection: bootable Windows (vista,win)
+56:698  0:001  - [07]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(6,GPT,E1D13468-1BEE-4039-B8E3-74F32B4E79DC,0x1B8DD000,0xF000800)
+56:699  0:000          Result of bootcode detection: bootable Windows (vista,win)
+56:701  0:001  - [08]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(7,GPT,690DFD0E-9550-4AF6-958C-48FEE02DA492,0x2A8DD800,0x8C00000)
+56:706  0:005          Result of bootcode detection: bootable Windows (vista,win)
+56:708  0:001  - [09]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(8,GPT,EEA95D53-6B3E-44C9-B78A-590BB8ABF1BB,0x334DD800,0x482FF68)
+56:708  0:000  - [10]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(9,GPT,854A2882-0C45-4F0F-8199-6FCA16BE85EB,0x37D0D768,0x135F20)
+56:708  0:000  - [11]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x0,0x0)\HD(1,GPT,847CED00-3DEF-4679-ABBF-C07FC3C96D5A,0x28,0x64000)
+56:708  0:000          Result of bootcode detection: bootable unknown (legacy)
+56:708  0:000  - [12]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x0,0x0)\HD(2,GPT,F0D12EBE-1A37-4527-9EB1-EF4AD8153916,0x64028,0x1CFEBA00)
+56:709  0:000  - [13]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x0,0x0)\HD(3,GPT,21BBE6E4-FDA7-419B-820F-C8897EB4400C,0x1D08FA28,0x135F20)
+56:709  0:000  Choosing theme <null string>
+56:709  0:000  after NVRAM boot-args=slide=0 dart=0 npci=0x2000 nv_disable=1 kext-dev-mode=1 rootless=0
+56:709  0:000  === [ ScanLoader ] ========================================
+56:709  0:000  - [02]: 'EFI'
+56:709  0:000          AddLoaderEntry for Volume Name=EFI
+56:716  0:006  - [04]: 'OS X El Capitan'
+56:719  0:003          AddLoaderEntry for Volume Name=OS X El Capitan
+56:730  0:010          Check if volume Is Hibernated:
+56:730  0:000      Check sleep image 'by signature':
+56:738  0:007      read prefs \Library\Preferences\SystemConfiguration\com.apple.PowerManagement.plist status=Success
+56:738  0:000      SleepImage name from pref: ImageVolume = 'OS X El Capitan', ImageName = '\private\var\vm\sleepimage'
+56:741  0:003      Reading first 512 bytes of sleepimage ...
+56:746  0:004   OurBlockIoRead: Lba=A0D6008, Offset=141AC01000 (BlockSize=512)
+56:746  0:000   sig lion: 7A7A7A7A
+56:746  0:000   sig snow: 0
+56:746  0:000   no valid sleep image offset was found
+56:746  0:000      Reading completed -> Success
+56:746  0:000       sleepimage offset could not be acquired
+56:746  0:000          hibernated: no - sign
+56:746  0:000          AddLoaderEntry for Volume Name=OS X El Capitan
+56:749  0:002  - [05]: 'Recovery HD'
+56:749  0:000          AddLoaderEntry for Volume Name=Recovery HD
+56:750  0:000  - [06]: 'Win7'
+56:856  0:105          AddLoaderEntry for Volume Name=Win7
+56:987  0:130  - [07]: 'Win10'
+57:029  0:042          AddLoaderEntry for Volume Name=Win10
+57:091  0:061  - [08]: 'DEVELOP'
+57:220  0:128  - [09]: 'macOS Sierra'
+57:220  0:000          AddLoaderEntry for Volume Name=macOS Sierra
+57:227  0:006          Check if volume Is Hibernated:
+57:227  0:000      Check sleep image 'by signature':
+57:231  0:003      read prefs \Library\Preferences\SystemConfiguration\com.apple.PowerManagement.plist status=Not Found
+57:231  0:000      using default sleep image name = \private\var\vm\sleepimage
+57:239  0:008      Reading first 512 bytes of sleepimage ...
+57:239  0:000   OurBlockIoRead: Lba=352E5848, Offset=6A5CB09000 (BlockSize=512)
+57:239  0:000   sig lion: 7A7A7A7A
+57:239  0:000   sig snow: 0
+57:239  0:000   no valid sleep image offset was found
+57:239  0:000      Reading completed -> Success
+57:239  0:000       sleepimage offset could not be acquired
+57:239  0:000          hibernated: no - sign
+57:241  0:001  - [10]: 'Recovery HD'
+57:241  0:000          AddLoaderEntry for Volume Name=Recovery HD
+57:246  0:004  - [11]: 'EFI'
+57:246  0:000  - [12]: 'MacIntosh'
+57:250  0:004          AddLoaderEntry for Volume Name=MacIntosh
+57:275  0:025          Check if volume Is Hibernated:
+57:275  0:000      Check sleep image 'by signature':
+57:279  0:003      read prefs \Library\Preferences\SystemConfiguration\com.apple.PowerManagement.plist status=Success
+57:279  0:000      SleepImage name from pref: ImageVolume = 'MacIntosh', ImageName = '\private\var\vm\sleepimage'
+57:285  0:006      sleepimage not found -> Not Found
+57:285  0:000          hibernated: no - sign
+57:286  0:001          AddLoaderEntry for Volume Name=MacIntosh
+57:289  0:002  - [13]: 'Recovery HD'
+57:289  0:000          AddLoaderEntry for Volume Name=Recovery HD
+57:290  0:000  === [ AddCustomLegacy ] ===================================
+57:290  0:000  === [ AddCustomTool ] =====================================
+57:290  0:000  found tool \EFI\CLOVER\tools\Shell64U.efi
+57:290  0:000  Checking EFI partition Volume 2 for Clover
+57:290  0:000   Found Clover
+57:290  0:000  === [ FindDefaultEntry ] ==================================
+57:290  0:000  === [ GetEfiBootDeviceFromNvram ] =========================
+57:290  0:000  Default boot entry not found
+57:290  0:000  DefaultIndex=-1 and MainMenu.EntryCount=17
+70:888  13:597  BootOption of the entry is empty
+70:888  0:000  === [ StartLoader ] =======================================
+70:888  0:000  Finally: Bus=99773kHz CPU=2295MHz
+70:888  0:000  Loading boot.efi  status=Success
+71:044  0:155  GetOSVersion: 10.11.5 (15F34)
+71:044  0:000  CSR_CFG: CSR_ALLOW_UNTRUSTED_KEXTS | CSR_ALLOW_UNRESTRICTED_FS | CSR_ALLOW_TASK_FOR_PID | CSR_ALLOW_UNRESTRICTED_DTRACE | CSR_ALLOW_UNRESTRICTED_NVRAM
+71:044  0:000  Filtering KextPatches:
+71:044  0:000   - [00]: AppleAHCIPort (External icons patch) :: BinPatch :: [OS: 10.11.5 | MatchOS: All | MatchBuild: All] ==> allowed
+71:044  0:000  === [ PatchSmbios ] =======================================
+71:044  0:000  insert table 9 for dev 0:0
+71:044  0:000  insert table 9 for dev 0:0
+71:044  0:000  insert table 9 for dev 0:0
+71:045  0:000  Channels: 2
+71:045  0:000  Interleave: 0 2 1 3 4 6 5 7 8 10 9 11 12 14 13 15 16 18 17 19 20 22 21 23
+71:045  0:000  SMBIOS Type 17 Index = 0 => 0 0:
+71:045  0:000  BANK0 DIMM0 1600MHz 8192MB
+71:045  0:000  SMBIOS Type 17 Index = 1 => 2 2:
+71:045  0:000  BANK1 DIMM0 1333MHz 4096MB
+71:045  0:000  mTotalSystemMemory = 12288
+71:045  0:000  NumberOfMemoryDevices = 2
+71:045  0:000  Type20[0]->End = 0x7FFFFF, Type17[0] = 0x2000
+71:045  0:000  Type20[1]->End = 0xBFFFFF, Type17[1] = 0x5000
+71:045  0:000  === [ PatchACPI ] =========================================
+71:045  0:000  RSDT 0x96FFE0AC
+71:045  0:000  FADT from RSDT: 0x96FFC000
+71:045  0:000  XSDT 0x96FFE120
+71:045  0:000  FADT from XSDT: 0x96FFC000
+71:045  0:000  Xsdt reallocation done
+71:045  0:000  old FADT length=F4
+71:045  0:000  Found OperationRegion(GNVS, SystemMemory, 96FBCE18, ...)
+71:045  0:000  Found OperationRegion(OGNS, SystemMemory, 96FBBD98, ...)
+71:045  0:000  Found OperationRegion(COMP, SystemMemory, 96FBEF98, ...)
+71:045  0:000  Found OperationRegion(MCHT, SystemMemory, FED10000, ...)
+71:045  0:000  Found OperationRegion(RCRB, SystemMemory, FED1C000, ...)
+71:045  0:000  Found OperationRegion(MDBG, SystemMemory, 96F6B018, ...)
+71:045  0:000  Unable to determine address for OperationRegion(IGDM, SystemMemory, ...) skipping
+71:045  0:000  DSDT found in Clover volume OEM folder: EFI\CLOVER\ACPI\patched\DSDT.aml
+71:056  0:011  Apply DsdtFixMask=0x0000E9D7 old way
+71:056  0:000     drop _DSM mask=0x0000
+71:056  0:000  === [ FixBiosDsdt ] =======================================
+71:056  0:000  VideoCard devID=0xDF410DE
+71:056  0:000  DisplayADR1[0] = 0x10000, DisplayADR2[0] = 0x0
+71:056  0:000  VideoCard devID=0x1168086
+71:056  0:000  DisplayADR1[1] = 0x20000, DisplayADR2[1] = 0xFFFE
+71:056  0:000  USBADR[0] = 0x1A0000 and PCIe = 0xFFFE
+71:056  0:000  Found Airport Atheros at 0x1C0001, 0x0, DeviceID=0x002E
+71:056  0:000  USBADR[1] = 0x1C0003 and PCIe = 0x0
+71:056  0:000  USBADR[2] = 0x1D0000 and PCIe = 0xFFFE
+71:057  0:000  Patching DSDT:
+71:057  0:000   - [00]: pattern 45484331, patched at: [ (56D1) (1767) ]
+71:057  0:000   - [01]: pattern 45484332, patched at: [ (5ACD) (137D) ]
+71:057  0:000  first CPU found at 4210 offset 4213
+71:057  0:000  score candidate at 420C
+71:057  0:000  score inserted in acpi_cpu_score _PR_
+71:057  0:000  Found ACPI CPU: CPU0 | CPU1 | CPU2 | CPU3 | CPU4 | CPU5 | CPU6 | CPU7 , within the score: _PR_
+71:057  0:000  Found PCIROOTUID = 0
+71:057  0:000  Start RTC Fix
+71:057  0:000  found RTC Length not match, Maybe will case CMOS reset will patch it.
+71:057  0:000  Start TMR Fix
+71:057  0:000  Start PIC Fix
+71:057  0:000  PIC size=A2 at 1CA9
+71:057  0:000  found CRS at 1CBD size 8A
+71:057  0:000  Start HPET Fix
+71:058  0:000  Start Display0 Fix
+71:058  0:000  Found internal video device 0 @8EB3
+71:058  0:000  Skipping Method(_DSM) for 10DE card
+71:058  0:000  now inserting Video device
+71:058  0:000  ... into existing bridge
+71:058  0:000  patch Display #0 of Vendor=0x10DE in DSDT old way
+71:058  0:000  Start Display1 Fix
+71:058  0:000   builtin display
+71:058  0:000  Skipping Method(_DSM) for 8086 card
+71:058  0:000  now inserting Video device
+71:058  0:000  ... into existing bridge
+71:058  0:000  patch Display #1 of Vendor=0x8086 in DSDT old way
+71:058  0:000  Start NetWork Fix
+71:059  0:000  found NetWork device [0x001C0000:0] at 5E32 and Name is PXSX
+71:059  0:000  NetworkADR1=1C0000 NetworkADR2=0
+71:059  0:000  network DSM created, size=7F
+71:059  0:000  Start Airport Fix
+71:059  0:000  found Airport device [001C0001:0] at 6013 And Name is PXSX
+71:059  0:000  Name PXSX present at 0x7A, renaming to ARPT
+71:059  0:000  Name PXSX present at 0xB8, renaming to ARPT
+71:059  0:000  AirportADR=6013 add patch size=121
+71:059  0:000  adr 6013 size of arpt=17
+71:059  0:000  Start SBUS Fix PCI=952 len=9311
+71:060  0:000  device (SBUS) found at 69D1
+71:060  0:000  SBUS code size fix = 0x0000005D
+71:060  0:000  patch HDEF in DSDT 
+71:060  0:000  Start HDA Fix
+71:060  0:000  found HDA device NAME(_ADR,0x001B0000) And Name is HDEF
+71:060  0:000  NewName HDEF already present, renaming impossibble
+71:060  0:000  Start _WAK Return Fix
+71:060  0:000  _WAK Method find return data, don't need to patch.
+71:060  0:000  return len=93C8
+71:060  0:000   deleting device CRT_
+71:060  0:000   deleting device DVI_
+71:061  0:000   deleting device SPKR
+71:061  0:000   deleting device ECP_
+71:061  0:000   deleting device LPT_
+71:061  0:000   deleting device FDC0
+71:061  0:000   deleting device ECP1
+71:067  0:005   deleting device LPT1
+71:067  0:000  Start PNLF Fix
+71:068  0:000  found PWRB at 2CAE
+71:068  0:000  Start _S3D Fix
+71:068  0:000    indirect name=SRCB
+71:068  0:000  Start ADP1 fix
+71:068  0:000  Name ACAD present at 0x251C, renaming to ADP1
+71:068  0:000  Name ACAD present at 0x256D, renaming to ADP1
+71:068  0:000  Name ACAD present at 0x28DC, renaming to ADP1
+71:068  0:000  Start Darwin Fix
+71:068  0:000  Name _OSI present at 0x4B8F, renaming to OOSI
+71:068  0:000  Name _OSI present at 0x4B96, renaming to OOSI
+71:068  0:000  Name _OSI present at 0x4BB2, renaming to OOSI
+71:068  0:000  Name _OSI present at 0x4BD5, renaming to OOSI
+71:068  0:000  Name _OSI present at 0x4BF8, renaming to OOSI
+71:068  0:000  Name _OSI present at 0x4C16, renaming to OOSI
+71:068  0:000  Name _OSI present at 0x4C35, renaming to OOSI
+71:068  0:000  Name _OSI present at 0x4C55, renaming to OOSI
+71:068  0:000  Name _OSI present at 0x4C75, renaming to OOSI
+71:068  0:000  Start SHUTDOWN Fix len=94A9
+71:068  0:000  === [ ACPIDropTables ] ====================================
+71:068  0:000  === [ PatchAllSSDT ] ======================================
+71:068  0:000  Patch table: SSDT  ACRPRDCT
+71:068  0:000   SSDT len = 0xBC2
+71:068  0:000  Patching SSDT:
+71:068  0:000   - [00]: pattern 45484331, bin not found / already patched!
+71:068  0:000   - [01]: pattern 45484332, bin not found / already patched!
+71:068  0:000  Patch table: SSDT  ACRPRDCT
+71:068  0:000   SSDT len = 0x780
+71:068  0:000  Patching SSDT:
+71:068  0:000   - [00]: pattern 45484331, bin not found / already patched!
+71:068  0:000   - [01]: pattern 45484332, bin not found / already patched!
+71:068  0:000  Patch table: SSDT  ACRPRDCT
+71:068  0:000   SSDT len = 0x996
+71:068  0:000  Patching SSDT:
+71:068  0:000   - [00]: pattern 45484331, bin not found / already patched!
+71:068  0:000   - [01]: pattern 45484332, bin not found / already patched!
+71:068  0:000  Patch table: SSDT  ACRPRDCT
+71:068  0:000   SSDT len = 0x4F58
+71:068  0:000  Patching SSDT:
+71:068  0:000   - [00]: pattern 45484331, bin not found / already patched!
+71:068  0:000   - [01]: pattern 45484332, bin not found / already patched!
+71:069  0:000  Drop tables from Xsdt, SIGN=XXXX TableID= Length=0
+71:069  0:000   Xsdt has tables count=12
+71:069  0:000  corrected XSDT length=132
+71:069  0:000  === [ ACPIPatchedAML ] ====================================
+71:069  0:000  Start: Processing Patched AML(s): Unsorted
+71:069  0:000  Inserting SSDT.aml from EFI\CLOVER\ACPI\patched ... Success
+71:069  0:000  End: Processing Patched AML(s)
+71:069  0:000  CPUBase=0 and ApicCPUBase=1 ApicCPUNum=8
+71:069  0:000  Maximum control=0x17
+71:069  0:000  Turbo control=0x1D
+71:069  0:000  P-States: min 0x8, max 0x1D
+71:069  0:000  SSDT with CPU P-States generated successfully
+71:069  0:000  SSDT with CPU C-States generated successfully
+71:069  0:000  === [ RestSetupOSX ] ======================================
+71:069  0:000  EdidDiscovered size=128
+71:069  0:000  00 | 00 FF FF FF FF FF FF 00 06 AF EC 26 00 00 00 00
+71:069  0:000  16 | 01 13 01 03 80 22 13 78 0A D7 75 93 55 55 8D 29
+71:069  0:000  32 | 24 50 54 00 00 00 01 01 01 01 01 01 01 01 01 01
+71:069  0:000  48 | 01 01 01 01 01 01 0C 1C 56 A0 50 00 10 30 30 20
+71:069  0:000  64 | 36 00 58 C1 10 00 00 18 00 00 00 0F 00 00 00 00
+71:069  0:000  80 | 00 00 00 00 00 00 00 00 00 20 00 00 00 FE 00 41
+71:069  0:000  96 | 55 4F 0A 20 20 20 20 20 20 20 20 20 00 00 00 FE
+71:069  0:000  112 | 00 42 31 35 36 58 57 30 32 20 56 36 20 0A 00 65
+71:069  0:000  NVidia GFX injection not set
+71:069  0:000  Intel Intel HD Graphics 3000 [8086:0116] :: PcieRoot(0x0)\Pci(0x2,0x0)
+71:069  0:000  custom IntelGFX properties injected, continue
+71:069  0:000  Intel GFX revision  =0x9
+71:069  0:000   RCBA access disabled; trying to enable
+71:069  0:000  stringlength = 2648
+71:070  0:000  CurrentMode: Width=1366 Height=768
+71:070  0:000  Beginning FSInjection
+FSInjectionInstall ...
+- Our FSI_SIMPLE_FILE_SYSTEM_PROTOCOL installed on handle: 951C8498
+FSInjectionInstall ...
+- Our FSI_SIMPLE_FILE_SYSTEM_PROTOCOL installed on handle: 951C8498
+71:071  0:001  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\Other
+71:076  0:005  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\10.11
+71:077  0:000    Extra kext: EFI\CLOVER\kexts\10.11\FakeSMC.kext
+71:080  0:002    Extra kext: EFI\CLOVER\kexts\10.11\FakeSMC_ACPISensors.kext
+71:086  0:005    Extra kext: EFI\CLOVER\kexts\10.11\FakeSMC_CPUSensors.kext
+71:087  0:000    Extra kext: EFI\CLOVER\kexts\10.11\FakeSMC_GPUSensors.kext
+71:088  0:001    Extra kext: EFI\CLOVER\kexts\10.11\FakeSMC_LPCSensors.kext
+71:099  0:011    Extra kext: EFI\CLOVER\kexts\10.11\GenericUSBXHCI.kext
+71:107  0:007    Extra kext: EFI\CLOVER\kexts\10.11\VoodooPS2Controller.kext
+71:109  0:002      Extra PlugIn kext: EFI\CLOVER\kexts\10.11\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Keyboard.kext
+71:116  0:006      Extra PlugIn kext: EFI\CLOVER\kexts\10.11\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Mouse.kext
+71:117  0:001      Extra PlugIn kext: EFI\CLOVER\kexts\10.11\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Trackpad.kext
+71:128  0:010  Custom boot is disabled
+71:128  0:000  Closing log
